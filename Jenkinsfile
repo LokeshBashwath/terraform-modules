@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Rohittkilatur14/terraform-modules.git'
+                git branch: 'main', url: 'https://github.com/cloudinstitution/terraform-modules.git'
             }
         }
         stage('Terraform init') {
