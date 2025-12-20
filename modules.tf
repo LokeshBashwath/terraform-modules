@@ -1,10 +1,11 @@
-module "ec2" {
-  source = "./modules/aws/ec2/"
+module "iam" {
+  source = "./modules/aws/iam"
 }
 
-#module "iam" {
-#  source = "./modules/aws/iam"
+#module "ec2" {
+#  source = "./modules/aws/ec2/"
 #}
+
 
 #module "vpc" {
 #  source = "./modules/aws/vpc/"
