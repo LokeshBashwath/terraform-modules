@@ -11,6 +11,6 @@ module "iam" {
 #  source = "./modules/aws/vpc/"
 #}
 
-#module "s3" {
-#  source = "./modules/aws/s3/"
-#}
+module "s3" {
+  source = "./modules/aws/s3/"
+}
